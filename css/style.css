@@ -44,6 +44,11 @@
     transition: .5s all;
 }
 
+.nav_alredy {
+    color: rgb(31, 0, 206) !important;
+    transition: .5s all;
+    
+}
 
 .content_body{
     border-radius: 20px;
