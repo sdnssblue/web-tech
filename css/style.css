@@ -65,6 +65,7 @@ h1, h2 {
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 20px;
+    position: relative;
 }
 
 .about_me_photo{
@@ -157,4 +158,67 @@ h1, h2 {
 
 #btn2{
     color: black;
+}
+
+.table{
+    border: 1px solid black;
+}
+
+.table_body .content_body{
+    margin-top: 50px;
+    height: 70vh;
+}
+
+.table .content_header{
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.other{
+    text-align: center;
+}
+
+.other__center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other__center_list{
+    text-align: start
+}
+
+.btn{
+    background-color: grey;
+    border-radius: 30px;
+    padding: 10px 10px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    z-index: 9;
+}
+
+.btn:hover{
+    background-color: violet;
+}
+
+.btn .bottom{
+    right: 5px;
+    top: 10px;
+}
+
+.btn .top{
+    left: 5px;
+    top: 10px;
+}
+
+#scroll_bottom{
+    left: 150px;
+    bottom: 400px;
+}
+
+#scroll_top{
+    right: 150px;
+    bottom: 400px;
 }
