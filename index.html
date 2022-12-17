@@ -4,7 +4,7 @@
     <link href="css/style.css" rel="stylesheet">
     <title> Персональная Web-страница </title>
     <meta charset="utf-8">
-    <meta http-equiv="Refresh" content ="10; URL=file:///C:/Users/USer/Desktop/web/pages/contact.html">
+    <!-- <meta http-equiv="Refresh" content ="10; URL=file:///C:/Users/USer/Desktop/web/pages/contact.html"> -->
 </head>
 
 <body>
@@ -14,11 +14,6 @@
                 <li>
                     <a class="nav_already">
                         Главная
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/native-city.html">
-                        Место рождения
                     </a>
                 </li>
                 <li>
@@ -46,22 +41,36 @@
                         Разное
                     </a>
                 </li>
+                <li>
+                    <a href="pages/js-realization.html">
+                        Реализация JavaScript
+                    </a>
+                </li>
             </ul>
         </header>
         <div class="content_body">
             <div class="about_me_photo">
-                <img class="about_img" src="assets/me1.jpg" alt="Its me...">
+                <img class="about_img" src="assets/me1.jpg" alt="It's me">
             </div>
             <div class="about_me">
                 <ul class="about">
                     <li><span>Медянкин Владислав Константинович</span></li>
-                    <li>Родился 18 ноября 2003 года в городе <a href="pages/native-city.html">Белово</a></li>
+                    <li>Родился 18 ноября 2003 года в городе <a target="blank" href="https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE">Белово</a></li>
                     <li>В 2021 году закончил МБОУ СОШ №19 города Белово</li>
                     <li>В настоящий момент получаю образование в <a target="blank" href="https://tusur.ru/ru"> ТУСУРе</a></li>
                 </ul>
             </div>
         </div>
+        <div class="date-clock">
+            <div id="timer"></div>
+        </div>
+        <div class="date-clock">
+            <div id="clock"></div>
+            <div id="date"></div>
+        </div>
     </div>
+    <script src="js/timer.js"></script>
+    <script src="js/date-clock.js"></script>
 </body>
 
 </html>

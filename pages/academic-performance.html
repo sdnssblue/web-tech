@@ -15,11 +15,6 @@
                     </a>
                 </li>
                 <li>
-                    <a href="native-city.html">
-                        Место рождения
-                    </a>
-                </li>
-                <li>
                     <a href="school.html">
                         Школа
                     </a>
@@ -44,11 +39,16 @@
                         Разное
                     </a>
                 </li>
+                <li>
+                    <a href="js-realization.html">
+                        Реализация JavaScript
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="content_body">
+            <h3>Успеваемость</h3>
             <div class="evaluations">
-                <h3>Успеваемость</h3>
                 <div id="btn1" onClick="DrawTable('1semester')" class="button">1 семестр</div>
                 <div id="btn2" onClick="DrawTable('2semester')" class="button">2 семестр</div>
                 <br>
@@ -212,6 +212,11 @@
                 </table>
             </div>
         </div>
+        <div class="date-clock">
+            <div id="clock"></div>
+            <div id="date"></div>
+        </div>
     </div>
+    <script src="../js/date-clock.js"></script>
 </body>
 </html>
