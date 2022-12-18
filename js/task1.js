@@ -11,9 +11,9 @@ function generate_array() {
 }
 
 function get_max_modul(array) {
-    let max = -101;
-    for (let i = 0; i < array.length; i++) {
-        if (Math.abs(array[i]) > max) {
+    var max = 0;
+    for (var i = 0; i < array.length; i++) {
+        if (Math.abs(array[i]) > Math.abs(max)) {
             max = array[i];
         }
     }
