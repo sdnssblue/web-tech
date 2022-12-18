@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.creating_div {
+    height: inherit;
+}
+
+.context {
+    height: 100%;
+    width: 100%;
+
+    padding: 10px;
+}
+
+fieldset {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: rgb(248, 226, 224);
+    margin-bottom: 10px;
+}
+
+.field-form {
+    margin-bottom: 10px;
+}
+
+#fields {
+    float: left;
+}
+
+#fields label {
+    float: left;
+    padding-right: 10px;
+}
+
+#fields div {
+    clear: both;
+    text-align: right;
+    line-height: 25px;
+}
+
+span {
+    color: red;
+}
